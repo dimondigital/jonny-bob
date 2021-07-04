@@ -1,0 +1,89 @@
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  body, section, div {
+    font-size: 30pt; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+  body, section, div {
+    font-size: 30pt; }
+  .wrapper {
+    min-width: 0; }
+  .logo {
+    top: -3% !important;
+    width: 150px;
+    height: 150px;
+    background: url("../assets/main/logo-small.png") no-repeat center center; }
+  .choose-lang {
+    display: inline-table;
+    padding: 20px;
+    position: relative;
+    border: 10px solid #ffed2d !important;
+    font-size: 30pt;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 100pt;
+    width: 70px;
+    height: 70px;
+    z-index: 500;
+    opacity: 1;
+    cursor: pointer;
+    color: #ffed2d !important; }
+  nav {
+    position: relative;
+    top: 15%; }
+  nav li {
+    border: none;
+    font-size: 20pt;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    text-decoration: underline;
+    text-align: left; }
+  .text-wrapper, .text-wrapper-we-can {
+    min-width: 100vw; }
+  .text-wrapper-we-done {
+    max-width: 100vw;
+    width: 100vw; }
+  .who-we-text, .we-can-text, .we-done-text {
+    width: 100vw; }
+  .blend-figure {
+    display: none; }
+  .form-wrapper {
+    min-width: 100vw;
+    top: 30vh;
+    height: auto; }
+  form {
+    width: 100vw; }
+    form input {
+      width: 100vw;
+      font-size: 25pt; }
+    form textarea {
+      width: 100vw; }
+  .portfolio .button-right {
+    width: 50px;
+    height: 160px;
+    background: url("../assets/main/portfolio-button-right-small.png") no-repeat center center; }
+  .portfolio .button-left {
+    width: 50px;
+    height: 160px;
+    background: url("../assets/main/portfolio-button-left-small.png") no-repeat center center; }
+  .we-done-text {
+    width: 75vw; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  body, section, div {
+    font-size: 20pt; } }
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */

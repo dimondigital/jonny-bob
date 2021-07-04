@@ -1,0 +1,49 @@
+@import "vars.scss";
+
+html, body, section, .container, div, p, a, img {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: $main-color;
+}
+
+section {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	height: auto;
+	clear: both;
+	.container {
+		max-width:$container-size;
+		height: auto;
+		position: relative;
+		clear: both;
+		margin: 0 auto;
+	}
+}
+
+div {
+	display: inline-block;
+}
+a {
+	color: $main-color;
+	text-decoration: none;
+	&:hover, &:focus, &:visited {
+		color: $main-color;
+		text-decoration: none;
+	}
+}
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.float-right 	{	float: right !important;	}
+.float-left 	{	float: left !important;	}
+.text-align-left 	{	text-align: left; 	}
+.text-align-right 	{	text-align: right; 	}
+.text-align-center 	{	text-align: center;	}
+
+.no-padding { padding: 0 !important; }

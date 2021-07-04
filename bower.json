@@ -1,0 +1,17 @@
+{
+  "name": "landing-page-quickstarter",
+  "description": "Quickstarter for Landing Page projects. To make development circle much faster.",
+  "main": "index.js",
+  "authors": [
+    "elionsea"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ElionSea/landing-page-quickstarter",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "animate.css": "^3.5.2"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

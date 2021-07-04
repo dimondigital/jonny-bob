@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jonny Bob</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="wrapper">
+	<div class="logo nav-item" data-href="/"></div>
+
+		<div class="blend-figure main-figure-1"></div>
+		<div class="blend-figure main-figure-2"></div>
+		<div class="blend-figure who-we-figure-1"></div>
+		<div class="blend-figure who-we-figure-2"></div>
+		<div class="blend-figure we-done-figure-1"></div>
+		<div class="blend-figure we-done-figure-2"></div>
+		<div class="who-we-text"><p>Какой-то текст.</p></div>
+		<!-- leave request form -->
+		<div class="form-wrapper">	
+			<form  id="call-form" class="callbackform" method="post"> 
+	            <input type="hidden" name="act" value="callback" hidden>
+	            <label for="name">Как тебя зовут ?</label>            
+	            <input id="name" name="name" required="required" placeholder="">
+	            <label for="subject">Тема письма</label>
+	            <input id="subject" name="subject" required="required" placeholder="">
+	            <label for="message">Сообщение</label>
+	            <textarea name="message" id="message" cols="20" rows="4"></textarea>
+	            <input class="form-close" type="submit" value="отправить письмо"/>
+	        </form>		
+        </div>
+
+		<!-- portfolio -->
+		<div class="portfolio">
+			<div class="portfolio-item"><p>item 1</p></div>
+			<div class="portfolio-item hidden"><p>item 2</p></div>
+			<div class="portfolio-item hidden"><p>item 3</p></div>
+		</div>
+		
+		<nav>
+			<li class="hover-scale who-we-are nav-item" data-href="/who-we-are">
+			</li>
+			<li class="hover-scale we-can nav-item" data-href="/we-can"></li>
+			<li class="hover-scale write-to-us nav-item" data-href="/write-to-us"></li>
+			<li class="hover-scale we-done nav-item" data-href="/we-done"></li>
+		</nav>
+	</div>
+	
+
+	<link rel="stylesheet" href="../css/starter-style.css">
+	<link rel="stylesheet" href="../css/fonts.css">
+	<link rel="stylesheet" href="../css/main-style.css">
+	<link rel="stylesheet" href="../css/mobile.css">
+	<script src="../bower_components/gsap/src/minified/TimelineLite.min.js"></script>
+	<script src="../bower_components/gsap/src/minified/TweenMax.min.js"></script>
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "landing-page-quickstarter",
+  "version": "1.0.0",
+  "description": "Quickstarter for Landing Page projects. To make development circle much faster.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElionSea/landing-page-quickstarter.git"
+  },
+  "author": "elionsea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElionSea/landing-page-quickstarter/issues"
+  },
+  "homepage": "https://github.com/ElionSea/landing-page-quickstarter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
